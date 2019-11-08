@@ -8,13 +8,42 @@
     <link rel="stylesheet" href="./article.css">
 </head>
 <body>
-    <h1 class="title-box-1 con">허규리 기술 블로그 - 글내용</h1>
+    <h1 class="title-box-1 con">허규리 기술 블로그 - GIT사용법</h1>
     <h2 class="title-box-2 con">
-        글1
+        GIT사용법
     </h2>
     
     <div class="article-content con">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga porro, distinctio error at libero cum provident. Saepe eveniet sed nihil vitae eligendi. Libero accusamus facilis commodi vel necessitatibus explicabo debitis?
+        GIT bash 열기<br/>
+폴더에서 우클릭 => Git bash<br/>
+GIT bash에서 github 로그아웃<br/>
+git config --global --unset-all user.name<br/>
+git config --global --unset-all user.email<br/>
+git config --system --unset-all credential.helper<br/>
+GIT 최초 명령어(한번만 하면 됩니다.)<br/>
+git config --global user.email "이메일"<br/>
+EX : git config --global user.email "jangka512@gmail.com"<br/>
+git config --global user.name "사용자명"<br/>
+EX : git config --global user.name "jhs512"<br/>
+GIT 명령어<br/>
+git clone 리포지터리주소<br/>
+EX : git clone https://github.com/jhs512/site1.git<br/>
+cd site1<br/>
+작업폴더로 이동<br/>
+브라켓으로 작업 혹은 파일을 디렉토리(site1 폴더)로 복사<br/>
+작업 후 서버에 적용<br/>
+git add .<br/>
+git commit -m "작업내용"<br/>
+git push origin master<br/>
+업로드 된 결과 확인<br/>
+https://{username}.github.io/site1 에서 확인<br/>
+EX : https://jhs512.github.io/site1/index.html<br/>
+바로는 안될 수 있음<br/>
+결과확인이 바로 안될 때<br/>
+git commit -m 'rebuild pages' --allow-empty<br/>
+git push origin master<br/>
+로컬 저장소 최신화 하기<br/>
+git pull origin master<br/>
     </div>
     
     <div class="nav-box-1 con">
