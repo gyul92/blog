@@ -1,0 +1,127 @@
+body {width: 1440px; margin-left: auto; margin-right: auto; padding: 0; background-color: #fff; font-family: 'IropkeBatangM'src: url(font/IropkeBatangM_web/IropkeBatangM) format("woff"); overflow-x: hidden;}
+* {margin: 0;}
+
+
+
+
+.head .logo {width: 1440px; height: 195px; text-align: center; border-bottom: 1px solid #fff;}
+.head .logo img {padding-top: 70px; max-width: 100%;}
+
+.main:after {display: block; clear: both; content: "";}
+.main {padding: 10px 0; margin: 0; margin-top: 0px; list-style: none;}
+.main .m1 {float: left; width: 16.6666%; text-align: center; margin: 0;}
+.main .m1 a {text-decoration: none; color: #fff; font-weight: 500; font-size: 18.75px;}
+.main .m1 a:hover {border-bottom: 1px solid #fff; }
+.main:hover {background-color: rgba(255,255,255,0.2);}
+
+
+.box1{position: relative;}
+.head {position: absolute; top: 0; z-index: 100; width: 1440px}
+#brandVisual {width:100%; min-width:1440px; margin:0 auto; overflow:hidden; height:811px;}
+
+#brandVisual ul {position:relative; float:left; width:100%; height:811px; list-style: none; padding: 0; margin: 0}
+
+#brandVisual li {position:absolute; width:100%; height:811px;}
+#brandVisual li a {display:block; text-indent:-9999px}
+
+.slider-dots {color: #fff; width: 100%; text-align: left;}
+.slider-dots ul:after {display: block; clear: both; content: "";}
+.slider-dots ul {list-style: none; margin-left: 50px; margin-top: 35%; padding: 0;}
+.slider-dots ul li {float: left; width: 2%;}
+.slider-dots ul li a {text-decoration: none; color: #fff;}
+
+
+/*box2 공간설정*/
+.box2:after {display: block; clear: both; content: "";}
+.notice {float: left; width: 48%; border-right-width: 1px; border-right-style: solid; border-right-color: #000;}
+.schedule {float: left; width: 48%;}
+.box2 {margin:0 auto; padding-top: 80px; padding-left: 245px; padding-right: 220px;}
+
+.notice h4 {border-left: 10px solid #f04623; font-weight: bold; font-size: 22.5px; padding-left: 15px; padding-bottom: 3px; font-weight: bold;}
+
+.notice img {width: 420px; height: 179px; border-radius: 10px; border: 1px solid #7b7b7b; margin-top:27px; margin-left: 23px; margin-right: 23px;}
+
+.notice .text ul {list-style: none; padding-left: 22px; padding-right: 22px; margin-top: 15px;;}
+.notice .text li a {text-decoration: none; color: #000; display: block; border-bottom: 1px solid #808080; padding-bottom: 15px; padding-top: 15px; font-size: 18.75px; }
+.notice .text li a:hover {font-weight: bold;}
+.notice .text li .bold {font-weight: bold;}
+.notice datetime {float: right; padding-right: 20px;}
+
+.btn {float: right; padding-right: 35px; padding-top: 15px; font-size: 18.75px; font-weight: bold;}
+.btn span {padding-left: 5px;}
+.btn a {text-decoration: none; color: #000;}
+.btn a:hover {color: #f04623;}
+
+/*전시일정 설정*/
+.schedule h4 {border-left: 10px solid #f04623; font-weight: bold; font-size: 22.5px; padding-left: 15px; padding-bottom: 3px; font-weight: bold;}
+.schedule {margin-left: 23px;}
+ 
+.schedule .text ul {list-style: none; padding-left: 0px;  margin-top: 15px;}
+.schedule .text li a {text-decoration: none; color: #000; display: block; border-bottom: 1px solid #808080; padding-bottom: 15px; padding-top: 15px; font-size: 18.75px; letter-spacing : -1px;}
+.schedule .text li a:hover {font-weight: bold;}
+.schedule .text li .bold {font-weight: bold;}
+.schedule .text datetime {float: right; }
+
+
+/* ---------- CALENDAR ---------- */
+.Calenda {margin: 0 auto;}
+.schedule .Calendar select {margin:27px 0; padding: 0; text-align: center;}
+.schedule .text{margin-top:27px; margin-left: 23px; margin-right: 23px; padding: 0; font-size: 18.75px;}
+
+
+.Calendar select {border: none; font-size: 18.75px; font-weight: bold; width:100px; display: inline-block; text-align: center;}
+.Calendar option {text-align: center;}
+
+.Calendar td {padding: 10px 23px; font-weight: bold;}
+.Calendar td:hover {border-radius: 100px; background-color: rgba(116,214,143,0.4); margin: 0 auto; width: 1px;}
+.Calendar .sun {color: #ef4623;}
+
+
+
+.Calendar tr .spanevent {border-radius: 100%; background-color: rgba(239,70,35,0.5); padding: 5px; margin-left: -4px;}
+
+
+/*화살표 없애기*/
+.Calendar select {-webkit-appearance: none;} /* 화살표 없애기 for chrome*/
+-moz-appearance: none;}    /* 화살표 없애기 for firefox*/
+appearance: none;}         /* 화살표 없애기 공통*/
+.sel::-ms-expand {display: none;}           /* 화살표 없애기 for IE10, 11*/
+
+/*컨텐츠 설정*/
+.box3 {height: 230px; background-color: #25282a; margin-top: 15px; }
+
+.contents {width: 900px; padding-top: 80px; margin: 0 auto;}
+.contents ul:after {display: block; clear: both; content: "";}
+.contents ul {padding: 0px; margin: 0; list-style: none;}
+
+.contents ul li {float: left; width:225px; text-align: center;}
+.contents ul li a {display: block; text-decoration: none; color: #fff; font-size: 20px; font-weight: bold; text-align: center;}
+.contents ul li a:hover {color: #f04623;}
+
+#c001 {font-size: 18px; text-align: center;}
+#i001 {font-size: 40px; padding-bottom: 10px;}
+.contents img {max-width: 100%; text-align: center; padding-left: 45%;}
+
+
+
+.circle {color: #fff; margin-top: 60px; font-size: 26px; font-weight: bold; text-align: center; border-radius: 142px 142px 0 0; width: 284px; height: 142px; background-color: #25282a; margin: 0 auto; position: relative; top: 45px; }
+.circle p {padding-top: 67px;}
+
+.box4 {margin-top: 80px; margin-left: 245px;}
+.map {margin: 0 auto; width: 1440px;}
+.map h4 {border-left: 10px solid #f04623; font-weight: bold; font-size: 22.5px; padding-left: 15px; padding-bottom: 3px; font-weight: bold; }
+.map img {margin-left: auto; margin-right: auto; max-width: 100%; text-align: center;}
+.map ul {list-style: none;}
+.map a {text-decoration: none; color: #414042; font-size: 18.75px; font-weight: bold;}
+.map ul:after {display: block; clear: both; content: "";}
+.map ul {margin-left: -60px; margin-top: 25px; margin-bottom: 25px;}
+.map ul li {float: left; padding-left: 20px;}
+
+
+.box5 {margin-top: 80px; background-color: #808080; height: 347px;}
+.footer {text-align: center;}
+.footer img {padding-top: 75px; padding-bottom: 30px;}
+.footer .text a {text-decoration: none; color: #fff; font-size: 15px; font-weight: bold;}
+.footer .text {color: #fff; font-size: 15px; font-weight: bold;}
+
+.slideBg {z-index: -500px; overflow: hidden; width: 1440px; height: 815px; position: absolute;}

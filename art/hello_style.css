@@ -1,0 +1,23 @@
+/* hello 키프레임 설정*/
+
+.hello{position: absolute; left: 40%; top: 40%;}
+.hello:hover{
+animation-play-state: paused; /*마우스올리면 정지*/
+}
+
+.hello{
+    
+    -webkit-animation: bounce 1.2s ease-in-out;
+	-moz-animation: bounce 800ms ease-in-out;
+	-o-animation: bounce 800ms ease-in-out;
+	animation: bounce 1.2s ease-in-out;
+    animation:animationName 1s 0s infinite ease-in-out alternate;
+    animation-delay: 0.2s;    
+}
+
+@keyframes animationName {
+		0%{margin: 0px 2px;}
+		70%{margin: 150px 2px; opacity: 1;}
+		0%{margin:70px 2px; opacity: 0;}
+}
+
